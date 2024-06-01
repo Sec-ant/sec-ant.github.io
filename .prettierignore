@@ -4,3 +4,8 @@
 
 # Except these files & folders
 !*.astro
+!*.md
+!*.yml
+!*.yaml
+!*.css
+!*.html
