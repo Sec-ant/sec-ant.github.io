@@ -14,7 +14,7 @@ Hello everyone! Wishing you a happy New Year 🎉 and all the best for 2024! We'
 
 ![AstroPaper v4](@assets/images/AstroPaper-v4.png)
 
-## Table of contents
+## 目录
 
 ## Major Changes
 
@@ -48,7 +48,7 @@ If you're upgrading AstroPaper from v3 to v4, make sure to replace `postSlug` in
 
 ### Add code-snippets for content creation [#206](https://github.com/satnaing/astro-paper/pull/206)
 
-AstroPaper now includes VSCode snippets for new blog posts, eliminating the need for manual copy/pasting of the frontmatter and content structure (table of contents, heading, excerpt, etc.).
+AstroPaper now includes VSCode snippets for new blog posts, eliminating the need for manual copy/pasting of the frontmatter and content structure (目录, heading, excerpt, etc.).
 
 Read more about VSCode Snippets [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#:~:text=In%20Visual%20Studio%20Code%2C%20snippets,Snippet%20in%20the%20Command%20Palette).
 

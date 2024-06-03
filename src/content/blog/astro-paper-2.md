@@ -16,7 +16,7 @@ Astro 2.0 has been released with some cool features, breaking changes, DX improv
 
 ![Introducing AstroPaper 2.0](https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png)
 
-## Table of contents
+## 目录
 
 ## Features & Changes
 
@@ -61,11 +61,11 @@ If a blog post doesn't have any tag (in other words, frontmatter property `tags`
 ```ts
 // src/contents/_schemas.ts
 export const blogSchema = z.object({
-  // ---
-  // replace "others" with whatever you want
-  tags: z.array(z.string()).default(["others"]),
-  ogImage: z.string().optional(),
-  description: z.string(),
+	// ---
+	// replace "others" with whatever you want
+	tags: z.array(z.string()).default(["others"]),
+	ogImage: z.string().optional(),
+	description: z.string(),
 });
 ```
 

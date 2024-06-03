@@ -23,13 +23,13 @@ const socialCount = SOCIALS.filter((social) => social.active).length;
 	<Header />
 	<main id="main-content">
 		<section id="hero">
-			<h1>Mingalaba</h1>
+			<h1>幸会 <i>Nice to meet you</i></h1>
 			<a
 				target="_blank"
 				href="/rss.xml"
 				class="rss-link"
 				aria-label="rss feed"
-				title="RSS Feed"
+				title="RSS 源"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
 					><path
@@ -41,14 +41,10 @@ const socialCount = SOCIALS.filter((social) => social.active).length;
 				<span class="sr-only">RSS Feed</span>
 			</a>
 
+			<p>欢迎来到阿正写字的地方。</p>
+			<p>在这里我将分享我对技术的热情以及我在开发和开源世界中的探索。</p>
 			<p>
-				AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-				blog theme. This theme follows best practices and provides accessibility
-				out of the box. Light and dark mode are supported by default. Moreover,
-				additional color schemes can also be configured.
-			</p>
-			<p>
-				Read the blog posts or check
+				请查阅我的历史文章。
 				<LinkButton
 					className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
 					href="https://github.com/satnaing/astro-paper#readme"
@@ -130,7 +126,7 @@ const socialCount = SOCIALS.filter((social) => social.active).length;
 		@apply pb-6 pt-8;
 	}
 	#hero h1 {
-		@apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+		@apply my-4 inline-block text-3xl font-black sm:my-8 sm:text-5xl;
 	}
 	#hero .rss-link {
 		@apply mb-6;

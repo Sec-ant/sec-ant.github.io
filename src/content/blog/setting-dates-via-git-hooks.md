@@ -14,7 +14,7 @@ description: How to use Git Hooks to set your Created and Modified Dates on Astr
 
 In this post I will explain how to use the pre-commit Git hook to automate the input of the created (`pubDatetime`) and modified (`modDatetime`) in the AstroPaper blog theme frontmatter
 
-## Table of contents
+## 目录
 
 ## Have them Everywhere
 
@@ -172,13 +172,13 @@ To stop the IDE complaining in the blog engine files I have also done the follow
 
 ```typescript
 export interface Props {
-  title?: string;
-  author?: string;
-  description?: string;
-  ogImage?: string;
-  canonicalURL?: string;
-  pubDatetime?: Date;
-  modDatetime?: Date | null;
+	title?: string;
+	author?: string;
+	description?: string;
+	ogImage?: string;
+	canonicalURL?: string;
+	pubDatetime?: Date;
+	modDatetime?: Date | null;
 }
 ```
 
@@ -188,7 +188,7 @@ export interface Props {
 
 ```typescript
 interface DatetimesProps {
-  pubDatetime: string | Date;
-  modDatetime: string | Date | undefined | null;
+	pubDatetime: string | Date;
+	modDatetime: string | Date | undefined | null;
 }
 ```
